@@ -24,9 +24,19 @@ Farmland management, harvest management, bidding, crop distribution map, news, a
 
 1.  TribeAid using XUI the UI framework https://github.com/xuexiangjys/XUI, great thanks.
 2.  Screenshots
-   ![homepage](https://user-images.githubusercontent.com/72598847/127331211-aa5043cd-5a8f-419c-bce5-ccda2b15ea42.jpg)
+  
+  Homepage:
+  ![homepage](https://user-images.githubusercontent.com/72598847/127331211-aa5043cd-5a8f-419c-bce5-ccda2b15ea42.jpg)
+  
+  Rice Pest forecast
+  ![farmland management](https://user-images.githubusercontent.com/72598847/127331561-27928cd4-dc47-43dc-a6a7-fd151af233e3.jpg)
 
-4.  xxxx
+  Production forecast
+  ![harvest management](https://user-images.githubusercontent.com/72598847/127331638-4740caef-52c5-45c7-a34a-94bab5219aa6.jpg)
+
+  Crop distribution Map
+   ![crop distribution map](https://user-images.githubusercontent.com/72598847/127331736-3d84bf3a-c1d8-423d-be12-3b2a2592f781.jpg)
+
 
 #### Contribution
 
