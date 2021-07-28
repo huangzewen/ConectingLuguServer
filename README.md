@@ -1,37 +1,38 @@
+
 # Android_APP
 
-#### 介绍
-Call-for-code 2021, Android APP 
+#### Description
+IBM Call-for-code 2021, Android APP (TribeAid)
 
-#### 软件架构
-软件架构说明
+TribeAid is a smart cloud platform that provides sustainable agriculture solutions to the stakeholders.
 
+Firstly, by having access to real-time data about the state of their crops, the farmers and smallholders can easily monitor the health of their fields.  AI engine will assist identification and recognition of crop disease, providing support during whole life cycle of the plant growth.
 
-#### 安装教程
+Secondly, on this platform, farmer, buyers, suppliers, government, financial institutions… can easily connect to each other, share information and improve operation efficiency of the value chain.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+The app has eight main functions:
+Farmland management, harvest management, bidding, crop distribution map, news, agriculture materials, load & finance, and technology.
 
-#### 使用说明
+#### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  using Android Studio to open the source code
+2.  get backend API code (Python/Flask) from https://github.com/huangzewen/ConectingLuguServer.git and run the API with Python/Pycharm
+    if the API is up and runing, you will see 'flask restful API HeartBeat OK' for the default URL /
+4.  change the configuration of backend API URL in Android APP - utils\UrlConst.java 
+5.  run the APPP with Android Phone/Emulator in Android Studio 
 
-#### 参与贡献
+#### Instructions
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+1.  TribeAid using XUI the UI framework https://github.com/xuexiangjys/XUI, great thanks.
+2.  Screenshots
 
+<img width="694" alt="screenshot" src="https://user-images.githubusercontent.com/72598847/127332844-b85aa0df-bbcb-490e-b7f1-3a997db30e12.png">
 
-#### 特技
+https://user-images.githubusercontent.com/72598847/127334278-4e61b402-1e8b-44b8-9001-4b16696a3d39.mp4
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### Contribution
+
+1.  Fork the repository
+2.  Create Feat_xxx branch
+3.  Commit your code
+4.  Create Pull Request
