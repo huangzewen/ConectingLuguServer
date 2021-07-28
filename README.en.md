@@ -4,9 +4,12 @@
 IBM Call-for-code 2021, Android APP (TribeAid)
 
 TribeAid is a smart cloud platform that provides sustainable agriculture solutions to the stakeholders.
+
 Firstly, by having access to real-time data about the state of their crops, the farmers and smallholders can easily monitor the health of their fields.  
 AI engine will assist identification and recognition of crop disease, providing support during whole life cycle of the plant growth.
+
 Secondly, on this platform, farmer, buyers, suppliers, government, financial institutions… can easily connect to each other, share information and improve operation efficiency of the value chain.
+
 The app has eight main functions:
 Farmland management, harvest management, bidding, crop distribution map, news, agriculture materials, load & finance, and technology.
 
