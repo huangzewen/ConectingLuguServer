@@ -1,7 +1,4 @@
 
-
-https://user-images.githubusercontent.com/72598847/127334137-aa071992-d326-43a4-850b-997ac91decc4.mp4
-
 # Android_APP
 
 #### Description
