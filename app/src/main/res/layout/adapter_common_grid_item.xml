@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xuexiang.xui.widget.alpha.XUIAlphaLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.xuexiang.xui.widget.imageview.RadiusImageView
+            android:id="@+id/riv_item"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            tools:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TextStyle.Title"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"
+            tools:text="" />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/tv_sub_title"
+        style="@style/TextStyle.Explain"
+        android:textColor="@color/black"
+        android:scrollHorizontally="false"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:layout_marginTop="5dp"
+        tools:text="菜单" />
+
+
+</com.xuexiang.xui.widget.alpha.XUIAlphaLinearLayout>

@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">TribeAid</string>
+    <string name="app_browser_name">通用浏览器</string>
+
+    <string name="tab1">信息</string>
+    <string name="tab2">报告</string>
+    <string name="tab3">活动</string>
+    <string name="tab4">设置</string>
+
+    <string name="style_default">默认样式</string>
+    <string name="style_md_ios">Material Design &#038; iOS Style</string>
+
+    <string name="lab_please_select">请选择</string>
+    <string name="tip_number_only_error_message">数字必须大于0小于100!</string>
+    <string name="regexp_number_only">^[1-9]?\\d$</string>
+    <string name="common_example">示例图片</string>
+
+    <string name="determinate_circular_title">Determinate Circular Sample</string>
+    <string name="normal_progress">Normal Style</string>
+    <string name="normal_tinted_progress">Normal Style (Tinted)</string>
+    <string name="dynamic_progress">Dynamic Style</string>
+    <string name="dynamic_tinted_progress">Dynamic Style (Tinted)</string>
+
+    <string name="circularImageView_item_xml_circle_title">剪裁为圆形+边框+点击效果</string>
+    <string name="circularImageView_item_xml_oval_title">剪裁为椭圆形+边框+点击效果</string>
+    <string name="circularImageView_item_xml_round_rect_title">剪裁为圆角矩形+边框+点击效果</string>
+
+    <string name="circularImageView_modify_tip">可以通过右上角的按钮动态修改下图的效果</string>
+    <string name="circularImageView_modify_1">改变边框颜色与宽度</string>
+    <string name="circularImageView_modify_2">改变选中态边框颜色与宽度</string>
+    <string name="circularImageView_modify_3">改变选中态 Mask 的颜色（带透明度）</string>
+    <string name="circularImageView_modify_4">手工切换选中态</string>
+    <string name="circularImageView_modify_5">改变圆角大小</string>
+    <string name="circularImageView_modify_6">变为圆形</string>
+    <string name="circularImageView_modify_7">变为椭圆形</string>
+    <string name="circularImageView_modify_8">禁止使用touchSelect态</string>
+    <string name="circularImageView_modify_9">重置为初始态</string>
+
+    <string name="ratingbar_title">RatingBar</string>
+    <string name="scale_ratingbar_title">ScaleRatingBar</string>
+    <string name="rotation_ratingbar_title">RotationRatingBar</string>
+    <string name="add_rating_title">增加星级</string>
+
+    <!--ShadowButton-->
+    <string name="t5">RippleShadowShadowButton\n
+                app:sb_ripple_color=\"#eeeeee\"\n
+                app:sb_ripple_duration=\"500\"\n
+                app:sb_shape_type=\"round\"\n
+                app:sb_color_unpressed=\"#f44336\"\n
+    </string>
+    <string name="t4">RippleShadowShadowButton\n
+                app:sb_ripple_color=\"#8a87ee\"\n
+                app:sb_ripple_duration=\"500\"\n
+                app:sb_shape_type=\"rectangle\"\n
+                app:sb_color_unpressed=\"#f44336\"</string>
+    <string name="t3">ShadowImageView\n
+                app:sb_shape_type=\"round\"</string>
+    <string name="t2">ShadowButton\n
+                app:sb_shape_type=\"round\"</string>
+    <string name="t1">ShadowButton\n
+                app:sb_radius=\"6dp\"</string>
+    <string name="t0">ShadowButton\n
+                app:sb_alpha_pressed=\"40\"\n
+                app:sb_color_pressed=\"#0303ff\"\n
+                app:sb_color_unpressed=\"#8aacee\"</string>
+
+    <string name="label_classify_display">分类展示</string>
+    <string name="title_toolbar">主标题</string>
+    <string name="title_toolbar_sub">副标题</string>
+
+    <!-- ColorUtils 颜色工具 -->
+    <string name="color_utils_alpha_title">设置颜色的 alpha 值</string>
+    <string name="color_utils_ratio_title">根据比例，在两个 color 值之间计算出一个 color 值</string>
+    <string name="color_utils_transform_title">将 color 颜色值转换为字符串</string>
+    <string name="color_utils_random_title">获取随机颜色</string>
+
+    <string name="color_utils_square_origin">原始</string>
+    <string name="color_utils_square_alpha">%1$.1f alpha</string>
+
+    <!-- DrawableUtils Drawable 工具 -->
+    <string name="drawable_utils_create_state_list_drawable">创建一个带选中状态的Drawable</string>
+    <string name="drawable_utils_create_from_view_title">从一个 View 创建 Bitmap</string>
+    <string name="drawable_utils_create_from_view_button">以本界面 Root View 为例</string>
+    <string name="drawable_utils_solid_image_title">创建一张指定大小的纯色图片，支持圆角</string>
+    <string name="drawable_utils_circle_image_title">创建一张指定大小的圆形图片，并带文字</string>
+    <string name="drawable_utils_circle_gradient_title">创建一张渐变图片，支持圆角</string>
+    <string name="drawable_utils_tint_color_title">设置 Drawable 的颜色</string>
+    <string name="drawable_utils_separator_title">创建带上分隔线或下分隔线的 Drawable</string>
+
+    <string name="error_message">This is an error toast.</string>
+    <string name="success_message">Success!</string>
+    <string name="info_message">Here is some info for you.</string>
+    <string name="warning_message">Beware of the dog.</string>
+    <string name="normal_message_without_icon">Normal toast w/o icon</string>
+    <string name="normal_message_with_icon">Normal toast w/ icon</string>
+
+    <string name="camera_permission_confirmation">This app demonstrates the usage of CameraView. In order to do that, it needs permission to access camera.</string>
+    <string name="camera_permission_not_granted">Camera app cannot do anything without camera permission.</string>
+    <string name="picture_taken">Picture taken</string>
+    <string name="aspect_ratio">Aspect ratio</string>
+    <string name="switch_flash">Switch flash</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="flash_auto">Flash auto</string>
+    <string name="flash_off">Flash off</string>
+    <string name="flash_on">Flash on</string>
+
+    <string name="nav_download">Download</string>
+    <string name="nav_movie">Movie</string>
+    <string name="nav_music">Music</string>
+    <string name="nav_photo">Photo</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About</string>
+    <string name="nav_donate">Donate</string>
+    <string name="nav_my_apps">My APPS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_news">TribeAid</string>
+    <string name="menu_trending">Dashboard</string>
+    <string name="menu_profile">My</string>
+
+    <string name="menu_notifications">Notification</string>
+    <string name="menu_issues">Issue</string>
+    <string name="menu_starred">Starred</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_settings">Setting</string>
+    <string name="menu_about">About</string>
+
+    <string name="about_copyright">TribeAid ©Nokia 2021 All rights reserved.</string>
+    <string name="lab_yes">Yes</string>
+    <string name="lab_no">No</string>
+    <string name="lab_open_third_app">Open Third APP?</string>
+
+    <!-- 隐私政策弹窗   -->
+    <string name="lab_exit_app">Exit</string>
+    <string name="lab_agree">Agree</string>
+    <string name="lab_disagree">Disagree</string>
+    <string name="lab_look_again">View Again</string>
+    <string name="lab_still_disagree">Still Disagree</string>
+    <string name="title_reminder">Reminder</string>
+    <string name="content_think_about_it_again">Think Again</string>
+    <string name="content_privacy_explain_again">我们非常重视对你个人信息的保护，承诺严格按照《%s隐私权政策》保护及处理你的信息。如果你不同意该政策，很遗憾我们将无法为你提供服务</string>
+    <string name="lab_privacy_name">《%sPrivacy Agreement》</string>
+
+    <!-- 登录   -->
+    <string name="title_login_register">Login/Register</string>
+    <string name="action_get_verify_code">Verify Code</string>
+    <string name="title_login">Login</string>
+    <string name="title_login_by_verify_code">Verify Code Login</string>
+    <string name="title_register">Registe</string>
+    <string name="lab_forget_password">forget password?</string>
+    <string name="lab_login_by_verify_code">Verify Code Login</string>
+    <string name="lab_login_by_password">Password Login</string>
+    <string name="tip_please_input_phone_number">Input Phone Number</string>
+    <string name="title_phone_number">Phone Number</string>
+    <string name="title_password">Password</string>
+    <string name="title_old_password">Old Password</string>
+    <string name="hint_please_input_verify_code">Input Verify Code</string>
+    <string name="lab_verify_code">Verify Code</string>
+    <string name="tip_password_error">密码必须是8~18位字母和数字的组合！</string>
+    <string name="tip_new_password_error">新密码必须是8~18位字母和数字的组合！</string>
+    <string name="tip_phone_number_error">无效的手机号！</string>
+    <string name="regex_phone_number">^((13[0-9])|(14[5,7])|(15[0-3,5-9])|(16[6])|(17[0,1,3,5-8])|(18[0-9])|(19[8,9]))\\d{8}$</string>
+    <string name="tip_verify_code_error">请输入4位数验证码</string>
+    <string name="regex_verify_code">^\\d{4}$</string>
+    <string name="regex_password">^(?:(?=.*[a-zA-Z])(?=.*[0-9])).{8,18}$</string>
+    <string name="title_forget_password">重置密码</string>
+    <string name="lab_register_account">点击注册即表示同意</string>
+    <string name="lab_service_protocol"><![CDATA[<用户协议>]]></string>
+    <string name="lab_logout_confirm">是否确认退出账号？</string>
+    <string name="title_user_protocol">用户协议</string>
+    <string name="title_privacy_protocol">隐私政策</string>
+    <string name="agree_protocol">我已阅读并同意</string>
+    <string name="lab_and">And</string>
+
+    <string name="title_jump_login">跳过</string>
+    <string name="label_previous">上一条</string>
+    <string name="label_next">下一条</string>
+    <string name="tip_ignore_message">以后不再提示此类信息</string>
+    <string name="tip_title">你知道吗？</string>
+
+    <!--PictureSelector-->
+    <string name="pick_photo">选择图片</string>
+    <string name="pick_video">选择视频</string>
+    <string name="pick_photo_gif">选择gif图片</string>
+    <string name="pick_photo_without_camera">选择图片（不带拍照按钮且点击不预览图片）</string>
+    <string name="pick_one_photo">选择单张图片</string>
+    <string name="multiple_pick_photo">多次进入PhotoPicker选择图片</string>
+
+    <string name="connecting_text">连接中&#8230;</string>
+    <string name="connected_text">连接成功！</string>
+    <string name="connection_error_text">连接失败！</string>
+
+</resources>

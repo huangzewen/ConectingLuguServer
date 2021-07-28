@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/clean_keywords"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_action_close"
+            android:visibility="gone"
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/main_keywords"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/clean_keywords"
+            android:clickable="true"
+            android:completionThreshold="1"
+            android:drawableLeft="@drawable/ic_action_search"
+            android:dropDownVerticalOffset="1.0dip"
+            android:gravity="center_vertical"
+            android:hint="Search Crop Distribution"
+            android:text="Wheat &#038; Trader Distribution"
+            android:imeOptions="actionDone"
+            android:inputType="text|textAutoComplete"
+            android:maxLength="32"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#C0C0C0"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="1dp"
+        android:paddingHorizontal="@dimen/config_padding_5dp"
+        android:layout_weight="1.0"
+        />
+    <LinearLayout
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/xui_transparent"
+        android:orientation="horizontal">
+        <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+            style="@style/RoundButton.Auto"
+            android:id="@+id/btn_farmers"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/config_padding_5dp"
+            android:layout_marginLeft="@dimen/config_margin_24dp"
+            android:layout_marginRight="@dimen/config_margin_24dp"
+            android:text="Farmers List"
+            android:textColor="@color/xui_default_round_btn_white_text"
+            app:rb_backgroundColor="@color/xui_btn_blue_normal_color"
+            app:rb_borderColor="@color/xui_btn_blue_normal_color" />
+
+        <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+            style="@style/RoundButton.Auto"
+            android:id="@+id/btn_traders"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/config_padding_5dp"
+            android:layout_marginLeft="@dimen/config_margin_24dp"
+            android:layout_marginRight="@dimen/config_margin_24dp"
+            android:text="Traders List"
+            android:textColor="@color/xui_default_round_btn_white_text"
+            app:rb_backgroundColor="@color/xui_btn_blue_normal_color"
+            app:rb_borderColor="@color/xui_btn_blue_normal_color" />
+    </LinearLayout>
+</LinearLayout>

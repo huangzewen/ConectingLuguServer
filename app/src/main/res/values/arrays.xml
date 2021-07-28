@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_titles">
+        <item>@string/menu_news</item>
+        <item>@string/menu_trending</item>
+        <item>@string/menu_profile</item>
+    </string-array>
+
+    <string-array name="grid_titles_entry">
+        <item>Farmland\nManagement</item>
+        <item>Harvest\nManagement</item>
+        <item>Bidding</item>
+        <item>Crop\nMapping</item>
+        <item>Farmers\nHeadline</item>
+        <item>Agriculture\nMaterials</item>
+        <item>Load &amp;\nFinance</item>
+        <item>Technology</item>
+        <item>More</item>
+    </string-array>
+
+    <string-array name="sort_mode_entry">
+        <item>根据品牌名称排序</item>
+        <item>根据价格升序排序</item>
+        <item>根据价格降序排序</item>
+        <item>根据销售量升序排序</item>
+        <item>根据销售量降序排序</item>
+        <item>综合排序</item>
+    </string-array>
+
+    <string-array name="sort_mode_one_entry">
+        <item>根据品牌名称排序</item>
+    </string-array>
+
+    <!--  修改这里的图标  -->
+    <array name="grid_icons_entry">
+        <item>@drawable/farmland</item>
+        <item>@drawable/harvest</item>
+        <item>@drawable/bidding</item>
+        <item>@drawable/cropmap</item>
+        <item>@drawable/headline</item>
+        <item>@drawable/supplies</item>
+        <item>@drawable/loan</item>
+        <item>@drawable/technology</item>
+        <item>@drawable/others</item>
+    </array>
+
+</resources>
