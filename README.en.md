@@ -27,6 +27,7 @@ Farmland management, harvest management, bidding, crop distribution map, news, a
 2.  Screenshots
 
 <img width="694" alt="screenshot" src="https://user-images.githubusercontent.com/72598847/127332844-b85aa0df-bbcb-490e-b7f1-3a997db30e12.png">
+
 https://user-images.githubusercontent.com/72598847/127334278-4e61b402-1e8b-44b8-9001-4b16696a3d39.mp4
 
 #### Contribution
