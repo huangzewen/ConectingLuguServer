@@ -23,8 +23,9 @@ Farmland management, harvest management, bidding, crop distribution map, news, a
 #### Instructions
 
 1.  TribeAid using XUI the UI framework https://github.com/xuexiangjys/XUI, great thanks.
-2.  xxxx
-3.  xxxx
+2.  Screenshots
+   app/src/main/assets/homepage.jpg
+4.  xxxx
 
 #### Contribution
 
