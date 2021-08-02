@@ -120,8 +120,12 @@ public class HarvestFragment extends BaseFragment implements CustomLinkagePrimar
                                 try{
                                     JSONObject jsonObject = JsonUtil.toJSONObject(response);
                                     String level = jsonObject.getString("level");
-                                    String rank = jsonObject.getString("rank");
-                                    double price = jsonObject.getDouble("price");
+                                    //fake rank
+                                    String rank = "15/78";
+                                    //String rank = jsonObject.getString("rank");
+                                    //fake price
+                                    double price = 3.88;
+                                    //double price = jsonObject.getDouble("price");
                                     HarvestPredict ret=new HarvestPredict(level,rank,price);
                                     showPopup(ret);
                                 }catch (Exception e){
